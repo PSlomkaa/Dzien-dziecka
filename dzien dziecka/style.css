@@ -5,8 +5,8 @@ body * {
 }
 
 body {
-    background-color: rgb(32, 32, 32);
-    color: rgb(218, 218, 218);
+    background-color:  #FF69B4;
+    color: #00FFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ header {
 h1 {
     width: 40%;
     text-align: center;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(39, 39, 39);
     padding: 1rem;
     border-radius: 10px;
 }
@@ -43,7 +43,7 @@ article {
     flex-basis: 50%;
     margin: 30px 15px;
     border: 1.5px solid rgb(172, 172, 172);
-    background-color: rgba(80, 80, 80, 0.5);
+    background-color: rgb(47, 47, 47);
     border-radius: 20px;
     padding: 20px;
     /* height: 500px; */
@@ -77,10 +77,11 @@ aside {
     padding: 1rem;
     cursor: pointer;
     border: 3px solid rgb(148, 148, 148);
+    transition: ease-in-out .5s;
 }
 
 a {
-    color: #fff;
+    color: #00FFFF;
 }
 
 img {
@@ -89,8 +90,7 @@ img {
 }
 
 .button:hover {
-    background-color: rgb(136, 136, 136);
-    transition: .5s;
+    transition: ease-in-out .5s;
     transform: scale(1.1);
     color: #fff;
     width: 250px;
@@ -105,9 +105,10 @@ img {
 }
 
 footer {
-    color: rgb(182, 182, 182);
+    border-radius: 20px;
+    color: #00FFFF;
     width: 100%;
     text-align: center;
-    background-color: rgba(90, 90, 90, 0.3);
+    background-color: rgb(39, 39, 39);
     padding: 10px;
 }

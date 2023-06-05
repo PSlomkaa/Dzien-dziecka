@@ -6,20 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Piotr Słomka">
     <meta name="description" content="Moje prezenty">
+    <link rel="stylesheet" href="prezenty.css">
     <title>Moje prezenty</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Moje wymarzone prezenty</h1>
+            <h1>Moje wymażone prezenty</h1>
         </header>
         <section>
             
         </section>
         <form action="">
             <label for="">Lista moich wymażonych prezentów</label>
-            
+            <select name="Moje" id="Moje">
+                <optgroup>
+                    <option>Piłka do koszykówki</option>
+                    <option>Święty spokój</option>
+                    <option>Kosz do ogrodu</option>
+                    <option>Biblia accessa</option>
+                    <option>Biblia accessa</option>
+                    <option>Kostka rubica</option>
+                    <option>Plecak</option>
+                    <option>Zdrowie</option>
+                </optgroup>
+            </select>
+            <label for="">Podziel się swoim prezentem</label>
+            <textarea name="write" id="write" cols="60" rows="10" placeholder="Wpisz swoje prezenty"></textarea>
+            <input type="submit" value="Wyślij">
+            <input type="reset" name="clear" id="clear" value="Wyczyść">
         </form>
+        <p class="button">
+            <a href="index.html" class="prezenty"> <img src="img/icons8-left-arrow-50.png" alt="strzałka w lewo"> Problemy</a>
+        </p>
+        </aside>
+        <footer>
+            <h3>&copy; Piotr Słomka</h3>
+        </footer>
     </div>
 </body>
 </html>
